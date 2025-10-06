@@ -1,15 +1,24 @@
-﻿int mojeCislo = 1234;
+﻿const string Welcome = "Vitajte v AppsLabe!";
+
+int mojeCislo = 1234;
 string mojeSlovo = "Ahoj, svet!";
 bool mojaBoolHodnota = true;
 DateTime dnesnyDatum = DateTime.Now;
 float myFloat = 5.75f;
 int sucet = mojeCislo + 5;
 var myVar = "Toto je var string";
-
+Console.WriteLine(int.MinValue);
 Console.WriteLine(mojeCislo.ToString("000000"));
 Console.WriteLine(mojeSlovo);
 Console.WriteLine($"Súčet je: {sucet}");
+
 Console.WriteLine($"Dnes je: {dnesnyDatum.ToString("yyyy-MM-dd")}");
+
+Console.WriteLine($"Dnes je :{dnesnyDatum.ToString("yyyy")}");
+
 Console.WriteLine($"Bool hodnota je: {mojaBoolHodnota}");
 Console.WriteLine($"Float hodnota je: {myFloat}");
 Console.WriteLine(myVar);
+
+Console.WriteLine(Welcome);
+
